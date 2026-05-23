@@ -1,6 +1,6 @@
 target_sources(${CONTAINERS_LIB} 
 	PRIVATE
-		#doubly_linked_list.cpp
+		doubly_linked_list.cpp
 		vector.cpp
 )
 

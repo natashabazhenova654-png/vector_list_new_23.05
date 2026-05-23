@@ -27,7 +27,7 @@ namespace biv {
 			DoublyLinkedList& operator = (const DoublyLinkedList&) = delete;
 			~DoublyLinkedList();
 			
-			std::size_t get_size() const noexcept;
+			std::size_t  get_size() const noexcept;
 			bool has_item(const T& value) const noexcept;
 			void print() const noexcept;
 			void push_back(const T& value);
