@@ -20,7 +20,7 @@ namespace biv {
 
 			Node* begin = nullptr;
 			Node* end = nullptr;
-
+			std::size_t size = 0;
 		public:
 			DoublyLinkedList() noexcept {};
 			DoublyLinkedList(const DoublyLinkedList&) = delete;
